@@ -1,0 +1,23 @@
+use u_tekielak
+
+create table stations (
+    station_id int not null primary key identity(1,1),
+    name nvarchar(64) not null unique,
+    location_x numeric(15, 12) not null,
+    location_y numeric(15, 12) not null
+)
+
+create table measurements (
+    measurement_id int not null primary key identity(1,1),
+    value numeric(5, 2) not null,
+    time datetime not null,
+    type nvarchar(11) not null,
+    station_id int not null foreign key references stations(station_id)
+)
+
+create table norms (
+    norm_id int not null primary key identity(1,1),
+    value numeric(5, 2) not null,
+    type  nvarchar(11) not null unique
+)
+

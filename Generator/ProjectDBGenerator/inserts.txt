@@ -1,0 +1,2464 @@
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(1, 'Nowa Huta', 50.0724, 20.1193);
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(2, 'AGH', 50.0681, 19.9127);
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(3, '£agiewniki', 50.0197, 19.9374);
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(4, 'Bronowice', 50.0808, 19.8714);
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(5, 'Pr¹dnik Bia³y', 50.0913, 19.9235);
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(6, 'Pr¹dnik Czerwony', 50.0856, 19.9726);
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(7, 'Podgórze', 50.0376, 20.0154);
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(8, 'Czy¿yny', 50.064, 20.015);
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(9, 'Mistrzejowice', 50.0951, 20.0121);
+INSERT INTO stations(station_id, name, location_x, location_y)
+VALUES(10, 'Dêbniki', 50.0067, 19.8739);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1, 26, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(2, 47, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(3, 19, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(4, 40, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(5, 44, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(6, 24, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(7, 33, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(8, 58, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(9, 37, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(10, 44, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(11, 20, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(12, 45, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(13, 16, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(14, 47, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(15, 16, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(16, 31, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(17, 40, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(18, 42, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(19, 42, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(20, 56, CAST('2020-5-1 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(21, 36, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(22, 24, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(23, 17, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(24, 53, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(25, 37, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(26, 42, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(27, 36, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(28, 56, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(29, 23, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(30, 35, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(31, 32, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(32, 26, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(33, 26, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(34, 38, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(35, 24, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(36, 52, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(37, 32, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(38, 39, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(39, 40, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(40, 34, CAST('2020-5-2 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(41, 38, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(42, 31, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(43, 17, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(44, 33, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(45, 18, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(46, 44, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(47, 36, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(48, 51, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(49, 38, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(50, 48, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(51, 32, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(52, 24, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(53, 37, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(54, 57, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(55, 42, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(56, 39, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(57, 38, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(58, 41, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(59, 34, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(60, 38, CAST('2020-5-3 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(61, 31, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(62, 55, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(63, 35, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(64, 22, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(65, 33, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(66, 46, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(67, 25, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(68, 42, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(69, 19, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(70, 28, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(71, 41, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(72, 25, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(73, 35, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(74, 29, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(75, 25, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(76, 50, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(77, 21, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(78, 41, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(79, 18, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(80, 48, CAST('2020-5-4 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(81, 24, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(82, 43, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(83, 39, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(84, 54, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(85, 21, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(86, 20, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(87, 31, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(88, 36, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(89, 26, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(90, 48, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(91, 39, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(92, 59, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(93, 41, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(94, 23, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(95, 32, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(96, 38, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(97, 23, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(98, 22, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(99, 24, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(100, 41, CAST('2020-5-5 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(101, 18, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(102, 55, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(103, 34, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(104, 38, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(105, 39, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(106, 30, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(107, 42, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(108, 46, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(109, 38, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(110, 46, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(111, 26, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(112, 45, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(113, 29, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(114, 52, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(115, 15, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(116, 49, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(117, 32, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(118, 33, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(119, 42, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(120, 52, CAST('2020-5-6 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(121, 31, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(122, 30, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(123, 26, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(124, 56, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(125, 20, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(126, 27, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(127, 30, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(128, 34, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(129, 26, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(130, 32, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(131, 35, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(132, 50, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(133, 36, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(134, 24, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(135, 31, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(136, 50, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(137, 42, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(138, 51, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(139, 22, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(140, 37, CAST('2020-5-7 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(141, 22, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(142, 27, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(143, 18, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(144, 43, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(145, 20, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(146, 49, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(147, 34, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(148, 58, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(149, 26, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(150, 48, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(151, 17, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(152, 46, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(153, 41, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(154, 50, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(155, 18, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(156, 28, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(157, 15, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(158, 51, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(159, 27, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(160, 35, CAST('2020-5-8 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(161, 25, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(162, 59, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(163, 39, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(164, 37, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(165, 23, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(166, 23, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(167, 40, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(168, 21, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(169, 17, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(170, 50, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(171, 16, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(172, 56, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(173, 29, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(174, 40, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(175, 21, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(176, 41, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(177, 33, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(178, 59, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(179, 33, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(180, 24, CAST('2020-5-9 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(181, 16, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(182, 34, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(183, 38, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(184, 59, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(185, 33, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(186, 38, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(187, 15, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(188, 48, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(189, 22, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(190, 47, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(191, 23, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(192, 33, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(193, 33, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(194, 23, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(195, 32, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(196, 41, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(197, 15, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(198, 37, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(199, 28, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(200, 54, CAST('2020-5-10 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(201, 44, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(202, 36, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(203, 20, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(204, 31, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(205, 35, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(206, 29, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(207, 34, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(208, 56, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(209, 43, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(210, 43, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(211, 29, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(212, 28, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(213, 39, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(214, 29, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(215, 34, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(216, 42, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(217, 30, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(218, 25, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(219, 18, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(220, 43, CAST('2020-5-11 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(221, 28, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(222, 47, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(223, 19, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(224, 43, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(225, 23, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(226, 20, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(227, 33, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(228, 38, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(229, 15, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(230, 56, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(231, 23, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(232, 21, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(233, 44, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(234, 58, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(235, 34, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(236, 57, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(237, 27, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(238, 42, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(239, 43, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(240, 32, CAST('2020-5-12 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(241, 23, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(242, 39, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(243, 25, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(244, 37, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(245, 23, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(246, 51, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(247, 30, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(248, 28, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(249, 31, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(250, 51, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(251, 17, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(252, 54, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(253, 17, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(254, 35, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(255, 33, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(256, 26, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(257, 37, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(258, 26, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(259, 20, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(260, 53, CAST('2020-5-13 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(261, 34, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(262, 42, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(263, 39, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(264, 36, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(265, 26, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(266, 58, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(267, 17, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(268, 31, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(269, 16, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(270, 39, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(271, 32, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(272, 56, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(273, 37, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(274, 49, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(275, 20, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(276, 52, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(277, 35, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(278, 50, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(279, 18, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(280, 49, CAST('2020-5-14 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(281, 26, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(282, 28, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(283, 36, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(284, 49, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(285, 30, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(286, 43, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(287, 37, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(288, 45, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(289, 17, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(290, 25, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(291, 43, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(292, 46, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(293, 42, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(294, 57, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(295, 37, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(296, 32, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(297, 44, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(298, 54, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(299, 26, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(300, 49, CAST('2020-5-15 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(301, 41, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(302, 29, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(303, 43, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(304, 32, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(305, 20, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(306, 55, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(307, 29, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(308, 49, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(309, 16, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(310, 52, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(311, 40, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(312, 40, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(313, 43, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(314, 53, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(315, 44, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(316, 43, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(317, 34, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(318, 56, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(319, 22, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(320, 29, CAST('2020-5-16 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(321, 34, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(322, 57, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(323, 21, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(324, 49, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(325, 28, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(326, 55, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(327, 42, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(328, 36, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(329, 41, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(330, 45, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(331, 23, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(332, 22, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(333, 20, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(334, 34, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(335, 39, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(336, 41, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(337, 41, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(338, 51, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(339, 41, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(340, 43, CAST('2020-5-17 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(341, 38, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(342, 55, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(343, 30, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(344, 33, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(345, 27, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(346, 28, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(347, 17, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(348, 45, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(349, 38, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(350, 56, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(351, 16, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(352, 58, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(353, 21, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(354, 42, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(355, 16, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(356, 44, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(357, 21, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(358, 42, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(359, 34, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(360, 21, CAST('2020-5-18 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(361, 30, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(362, 30, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(363, 28, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(364, 46, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(365, 29, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(366, 39, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(367, 27, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(368, 59, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(369, 18, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(370, 44, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(371, 39, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(372, 50, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(373, 20, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(374, 29, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(375, 31, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(376, 53, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(377, 19, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(378, 42, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(379, 23, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(380, 38, CAST('2020-5-19 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(381, 22, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(382, 45, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(383, 33, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(384, 51, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(385, 17, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(386, 45, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(387, 32, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(388, 34, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(389, 29, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(390, 44, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(391, 39, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(392, 54, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(393, 27, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(394, 59, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(395, 28, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(396, 50, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(397, 32, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(398, 37, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(399, 33, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(400, 37, CAST('2020-5-20 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(401, 28, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(402, 50, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(403, 38, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(404, 48, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(405, 17, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(406, 45, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(407, 27, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(408, 20, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(409, 38, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(410, 47, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(411, 17, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(412, 39, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(413, 32, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(414, 45, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(415, 28, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(416, 24, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(417, 28, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(418, 32, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(419, 26, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(420, 41, CAST('2020-5-21 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(421, 28, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(422, 52, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(423, 30, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(424, 53, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(425, 30, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(426, 51, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(427, 17, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(428, 42, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(429, 17, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(430, 26, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(431, 29, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(432, 40, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(433, 32, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(434, 20, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(435, 18, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(436, 34, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(437, 35, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(438, 30, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(439, 40, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(440, 53, CAST('2020-5-22 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(441, 16, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(442, 20, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(443, 41, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(444, 47, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(445, 40, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(446, 50, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(447, 35, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(448, 34, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(449, 40, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(450, 44, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(451, 44, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(452, 25, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(453, 41, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(454, 34, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(455, 23, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(456, 42, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(457, 16, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(458, 46, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(459, 43, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(460, 53, CAST('2020-5-23 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(461, 16, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(462, 24, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(463, 43, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(464, 44, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(465, 44, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(466, 52, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(467, 25, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(468, 27, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(469, 25, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(470, 26, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(471, 25, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(472, 57, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(473, 25, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(474, 55, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(475, 21, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(476, 47, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(477, 28, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(478, 58, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(479, 39, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(480, 49, CAST('2020-5-24 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(481, 37, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(482, 26, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(483, 30, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(484, 27, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(485, 42, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(486, 54, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(487, 30, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(488, 47, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(489, 34, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(490, 28, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(491, 28, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(492, 20, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(493, 17, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(494, 22, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(495, 18, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(496, 56, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(497, 32, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(498, 41, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(499, 40, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(500, 25, CAST('2020-5-25 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(501, 19, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(502, 40, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(503, 37, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(504, 56, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(505, 35, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(506, 26, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(507, 16, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(508, 31, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(509, 36, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(510, 47, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(511, 18, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(512, 20, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(513, 15, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(514, 24, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(515, 23, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(516, 23, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(517, 35, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(518, 31, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(519, 17, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(520, 49, CAST('2020-5-26 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(521, 15, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(522, 53, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(523, 43, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(524, 38, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(525, 40, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(526, 27, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(527, 32, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(528, 20, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(529, 33, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(530, 59, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(531, 38, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(532, 20, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(533, 22, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(534, 24, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(535, 42, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(536, 48, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(537, 38, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(538, 27, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(539, 16, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(540, 30, CAST('2020-5-27 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(541, 15, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(542, 48, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(543, 18, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(544, 44, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(545, 40, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(546, 40, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(547, 16, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(548, 44, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(549, 40, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(550, 56, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(551, 27, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(552, 50, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(553, 28, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(554, 25, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(555, 21, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(556, 36, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(557, 21, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(558, 57, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(559, 21, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(560, 57, CAST('2020-5-28 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(561, 42, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(562, 51, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(563, 34, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(564, 21, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(565, 41, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(566, 42, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(567, 22, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(568, 52, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(569, 42, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(570, 36, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(571, 20, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(572, 21, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(573, 18, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(574, 29, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(575, 34, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(576, 25, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(577, 34, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(578, 32, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(579, 21, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(580, 35, CAST('2020-5-29 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(581, 38, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(582, 22, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(583, 29, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(584, 34, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(585, 39, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(586, 32, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(587, 22, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(588, 29, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(589, 17, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(590, 23, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(591, 42, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(592, 23, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(593, 26, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(594, 55, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(595, 32, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(596, 28, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(597, 40, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(598, 38, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(599, 18, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(600, 42, CAST('2020-5-30 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(601, 39, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(602, 51, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(603, 16, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(604, 35, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(605, 24, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(606, 45, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(607, 26, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(608, 50, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(609, 21, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(610, 34, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(611, 40, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(612, 43, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(613, 15, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(614, 58, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(615, 34, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(616, 41, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(617, 28, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(618, 34, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(619, 32, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(620, 34, CAST('2020-5-31 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(621, 21, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(622, 53, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(623, 21, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(624, 45, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(625, 17, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(626, 48, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(627, 26, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(628, 40, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(629, 28, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(630, 21, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(631, 40, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(632, 35, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(633, 17, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(634, 42, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(635, 26, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(636, 57, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(637, 39, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(638, 58, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(639, 27, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(640, 23, CAST('2020-6-1 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(641, 21, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(642, 53, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(643, 35, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(644, 53, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(645, 20, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(646, 52, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(647, 23, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(648, 30, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(649, 42, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(650, 32, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(651, 17, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(652, 35, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(653, 44, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(654, 51, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(655, 15, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(656, 28, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(657, 20, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(658, 30, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(659, 42, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(660, 49, CAST('2020-6-2 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(661, 25, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(662, 45, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(663, 18, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(664, 54, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(665, 36, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(666, 40, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(667, 39, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(668, 38, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(669, 20, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(670, 59, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(671, 17, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(672, 25, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(673, 19, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(674, 41, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(675, 18, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(676, 49, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(677, 30, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(678, 28, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(679, 27, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(680, 57, CAST('2020-6-3 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(681, 44, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(682, 56, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(683, 16, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(684, 47, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(685, 32, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(686, 41, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(687, 44, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(688, 20, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(689, 18, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(690, 34, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(691, 36, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(692, 57, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(693, 40, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(694, 23, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(695, 38, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(696, 52, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(697, 39, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(698, 21, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(699, 37, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(700, 59, CAST('2020-6-4 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(701, 15, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(702, 48, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(703, 22, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(704, 24, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(705, 40, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(706, 46, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(707, 33, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(708, 30, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(709, 32, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(710, 27, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(711, 39, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(712, 43, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(713, 26, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(714, 43, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(715, 21, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(716, 23, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(717, 25, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(718, 31, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(719, 24, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(720, 20, CAST('2020-6-5 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(721, 29, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(722, 42, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(723, 44, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(724, 53, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(725, 16, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(726, 44, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(727, 33, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(728, 52, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(729, 15, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(730, 25, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(731, 40, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(732, 39, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(733, 18, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(734, 42, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(735, 23, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(736, 27, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(737, 39, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(738, 28, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(739, 16, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(740, 44, CAST('2020-6-6 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(741, 38, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(742, 55, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(743, 20, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(744, 52, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(745, 41, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(746, 58, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(747, 44, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(748, 42, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(749, 44, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(750, 45, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(751, 44, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(752, 44, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(753, 30, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(754, 40, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(755, 40, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(756, 48, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(757, 43, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(758, 50, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(759, 16, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(760, 23, CAST('2020-6-7 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(761, 27, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(762, 52, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(763, 17, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(764, 27, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(765, 25, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(766, 23, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(767, 36, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(768, 43, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(769, 38, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(770, 27, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(771, 35, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(772, 29, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(773, 20, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(774, 25, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(775, 43, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(776, 43, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(777, 42, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(778, 28, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(779, 18, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(780, 57, CAST('2020-6-8 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(781, 44, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(782, 43, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(783, 24, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(784, 21, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(785, 43, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(786, 42, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(787, 23, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(788, 40, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(789, 26, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(790, 58, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(791, 29, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(792, 28, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(793, 31, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(794, 30, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(795, 44, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(796, 23, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(797, 25, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(798, 40, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(799, 43, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(800, 47, CAST('2020-6-9 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(801, 21, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(802, 43, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(803, 20, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(804, 46, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(805, 20, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(806, 58, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(807, 28, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(808, 49, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(809, 19, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(810, 48, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(811, 18, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(812, 59, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(813, 22, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(814, 26, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(815, 39, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(816, 55, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(817, 23, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(818, 26, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(819, 16, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(820, 45, CAST('2020-6-10 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(821, 30, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(822, 21, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(823, 34, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(824, 36, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(825, 29, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(826, 55, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(827, 39, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(828, 42, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(829, 20, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(830, 53, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(831, 17, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(832, 56, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(833, 33, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(834, 52, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(835, 41, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(836, 26, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(837, 28, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(838, 49, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(839, 19, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(840, 45, CAST('2020-6-11 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(841, 31, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(842, 32, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(843, 40, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(844, 33, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(845, 20, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(846, 56, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(847, 21, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(848, 41, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(849, 19, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(850, 54, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(851, 21, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(852, 32, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(853, 41, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(854, 58, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(855, 37, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(856, 55, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(857, 30, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(858, 31, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(859, 35, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(860, 21, CAST('2020-6-12 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(861, 30, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(862, 31, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(863, 42, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(864, 46, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(865, 25, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(866, 30, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(867, 37, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(868, 54, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(869, 18, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(870, 53, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(871, 41, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(872, 32, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(873, 43, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(874, 42, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(875, 18, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(876, 34, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(877, 28, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(878, 54, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(879, 38, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(880, 36, CAST('2020-6-13 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(881, 43, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(882, 24, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(883, 32, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(884, 33, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(885, 34, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(886, 48, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(887, 25, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(888, 20, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(889, 33, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(890, 38, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(891, 35, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(892, 55, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(893, 26, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(894, 44, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(895, 38, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(896, 56, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(897, 18, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(898, 49, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(899, 37, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(900, 21, CAST('2020-6-14 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(901, 34, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(902, 48, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(903, 37, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(904, 33, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(905, 29, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(906, 40, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(907, 17, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(908, 23, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(909, 36, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(910, 29, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(911, 23, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(912, 39, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(913, 33, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(914, 39, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(915, 16, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(916, 23, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(917, 30, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(918, 41, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(919, 29, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(920, 52, CAST('2020-6-15 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(921, 30, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(922, 53, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(923, 23, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(924, 49, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(925, 17, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(926, 38, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(927, 32, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(928, 30, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(929, 36, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(930, 54, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(931, 43, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(932, 21, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(933, 44, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(934, 33, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(935, 30, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(936, 49, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(937, 22, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(938, 49, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(939, 43, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(940, 40, CAST('2020-6-16 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(941, 36, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(942, 44, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(943, 42, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(944, 35, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(945, 30, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(946, 35, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(947, 15, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(948, 59, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(949, 17, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(950, 28, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(951, 17, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(952, 54, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(953, 20, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(954, 50, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(955, 19, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(956, 34, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(957, 25, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(958, 35, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(959, 16, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(960, 41, CAST('2020-6-17 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(961, 40, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(962, 59, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(963, 25, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(964, 38, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(965, 18, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(966, 48, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(967, 22, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(968, 32, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(969, 31, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(970, 29, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(971, 28, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(972, 28, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(973, 26, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(974, 50, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(975, 28, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(976, 23, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(977, 43, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(978, 44, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(979, 43, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(980, 20, CAST('2020-6-18 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(981, 16, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(982, 25, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(983, 29, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(984, 51, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(985, 38, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(986, 47, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(987, 38, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(988, 35, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(989, 23, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(990, 45, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(991, 31, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(992, 49, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(993, 15, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(994, 58, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(995, 24, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(996, 33, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(997, 21, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(998, 20, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(999, 21, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1000, 29, CAST('2020-6-19 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1001, 42, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1002, 28, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1003, 24, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1004, 44, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1005, 36, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1006, 25, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1007, 21, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1008, 36, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1009, 31, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1010, 26, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1011, 31, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1012, 27, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1013, 36, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1014, 24, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1015, 35, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1016, 26, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1017, 36, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1018, 42, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1019, 36, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1020, 44, CAST('2020-6-20 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1021, 44, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1022, 35, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1023, 37, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1024, 53, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1025, 39, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1026, 41, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1027, 30, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1028, 22, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1029, 28, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1030, 31, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1031, 21, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1032, 48, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1033, 33, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1034, 22, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1035, 32, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1036, 47, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1037, 36, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1038, 32, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1039, 31, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1040, 50, CAST('2020-6-21 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1041, 39, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1042, 29, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1043, 19, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1044, 56, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1045, 35, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1046, 33, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1047, 41, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1048, 52, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1049, 19, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1050, 45, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1051, 23, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1052, 28, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1053, 36, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1054, 52, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1055, 16, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1056, 54, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1057, 44, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1058, 58, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1059, 17, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1060, 44, CAST('2020-6-22 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1061, 20, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1062, 32, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1063, 24, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1064, 59, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1065, 43, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1066, 43, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1067, 33, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1068, 46, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1069, 34, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1070, 38, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1071, 31, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1072, 56, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1073, 37, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1074, 53, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1075, 23, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1076, 42, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1077, 21, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1078, 52, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1079, 32, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1080, 25, CAST('2020-6-23 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1081, 42, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1082, 38, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1083, 17, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1084, 27, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1085, 33, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1086, 50, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1087, 27, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1088, 20, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1089, 33, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1090, 59, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1091, 37, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1092, 28, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1093, 37, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1094, 40, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1095, 40, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1096, 35, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1097, 17, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1098, 27, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1099, 31, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1100, 57, CAST('2020-6-24 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1101, 23, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1102, 37, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1103, 43, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1104, 31, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1105, 41, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1106, 50, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1107, 24, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1108, 25, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1109, 43, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1110, 49, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1111, 25, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1112, 40, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1113, 25, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1114, 47, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1115, 37, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1116, 35, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1117, 20, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1118, 52, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1119, 26, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1120, 54, CAST('2020-6-25 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1121, 33, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1122, 46, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1123, 29, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1124, 46, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1125, 23, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1126, 29, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1127, 43, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1128, 43, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1129, 30, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1130, 55, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1131, 16, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1132, 55, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1133, 30, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1134, 28, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1135, 19, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1136, 30, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1137, 20, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1138, 44, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1139, 42, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1140, 22, CAST('2020-6-26 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1141, 16, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1142, 24, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1143, 24, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1144, 49, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1145, 15, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1146, 23, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1147, 15, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1148, 33, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1149, 20, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1150, 50, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1151, 42, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1152, 36, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1153, 22, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1154, 58, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1155, 18, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1156, 56, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1157, 39, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1158, 24, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1159, 16, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1160, 49, CAST('2020-6-27 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1161, 40, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1162, 45, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1163, 32, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1164, 24, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1165, 32, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1166, 43, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1167, 29, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1168, 30, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1169, 33, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1170, 28, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1171, 36, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1172, 25, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1173, 17, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1174, 33, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1175, 17, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1176, 54, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1177, 21, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1178, 46, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1179, 31, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1180, 32, CAST('2020-6-28 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1181, 24, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1182, 20, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1183, 29, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1184, 39, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1185, 28, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1186, 31, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1187, 36, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1188, 29, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1189, 34, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1190, 25, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1191, 40, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1192, 45, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1193, 31, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1194, 30, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1195, 40, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1196, 29, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1197, 39, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1198, 26, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1199, 18, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1200, 54, CAST('2020-6-29 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1201, 24, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1202, 40, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 1);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1203, 30, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1204, 33, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 2);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1205, 34, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1206, 21, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 3);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1207, 17, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1208, 28, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 4);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1209, 43, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1210, 51, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 5);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1211, 33, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1212, 46, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 6);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1213, 25, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1214, 42, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 7);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1215, 39, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1216, 39, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 8);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1217, 25, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1218, 52, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 9);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1219, 27, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM10', 10);
+INSERT INTO measurements(measurement_id, value, time, type, station_id)
+VALUES(1220, 51, CAST('2020-6-30 12:00:00.000' AS datetime), 'PM2,5', 10);
+INSERT INTO norms(norm_id, value, type)
+VALUES(1, 40, 'PM10');
+INSERT INTO norms(norm_id, value, type)
+VALUES(2, 25, 'PM2,5');

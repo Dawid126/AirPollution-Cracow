@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\pteki\source\repos\ProjectDBGenerator\ProjectDBGenerator\src\main.cpp(33,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+  ProjectDBGenerator.vcxproj -> C:\Users\pteki\source\repos\ProjectDBGenerator\Debug\ProjectDBGenerator.exe
