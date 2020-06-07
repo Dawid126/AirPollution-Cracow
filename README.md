@@ -12,8 +12,7 @@ Aplikacja łączy się z bazą danych i wyświetla na mapie pomiary zanieczyszcz
 Baza w MicrosoftSQLu składa się z trzech tabel: stations, measurements, norms.
 
 Schemat bazy
-![database diagram]
-(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/databse_diagram.png)
+<img src= "https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/databse_diagram.png">
 
 ### Tabela stations
 
@@ -45,16 +44,14 @@ Odpowiada za połączenie aplikacji z bazą danych za pomocą sterownika JDBC.
 Odpowiada za interfejs ekranu startowego.
 
 Przekazanie wybranego dnia i miesiąca do ProgramController i utworzenie mapy:
-![show_map]
-(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/show_map.png)
+
+<img src= "https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/show_map.png>
 
 Wygląd okna startowego
-![starting_window]
-(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/starting_window.png)
+<img src= "https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/starting_window.png">
 
 Mapa
-![map]
-(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/map.png)
+<img src ="https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/map.png">
 
 
 ### Main
@@ -66,8 +63,7 @@ Klasa główna. Ładuje parametry z pliku parameters.json i uruchamia całą apl
 Odpowiada za logikę aplikacji - pobiera dane z bazy, inicjuje ramkę i panel.
 
 Pobranie danych z bazy przy tworzeniu mapy:
-![obtain_data]
-(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/obtain_data.png)
+<img src="(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/obtain_data.png">
 
 ### MapDrawer
 
@@ -75,8 +71,8 @@ Klasa Madrawer odpowiada za rysowanie mapy za pomocą biblioteki Unfolding wraz 
 wszystkich stacji.
 
 Dodanie znaczników wszystkich stacji:
-![add_markers]
-(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/add_markers.png)
+
+<img src ="https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/add_markers.png">
 
 Klasa MeasurementContainer służy jako kontener dla danych z pojedynczego pomiaru.
 Klasa ZoomSlider odpowiada za pasek Zooma mapy.
@@ -85,7 +81,7 @@ wyświetlone dane pomiarowe z danej stacji.
 oraz za wyświetlanie szczegółów danej stacji pomiarowej.
 
 Wyświetlenie szczegółów stacji:
-![add_markers]
-(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/show_details.png)
+<img src ="https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/show_details.png">
+
 
 
