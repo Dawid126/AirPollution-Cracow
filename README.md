@@ -11,7 +11,7 @@ Aplikacja łączy się z bazą danych i wyświetla na mapie pomiary zanieczyszcz
 ## Baza danych
 Baza w MicrosoftSQLu składa się z trzech tabel: stations, measurements, norms.
 
-Schemat bazy
+Schemat bazy:<br/>
 <img src= "https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/databse_diagram.png">
 
 ### Tabela stations
@@ -43,14 +43,14 @@ Odpowiada za połączenie aplikacji z bazą danych za pomocą sterownika JDBC.
 
 Odpowiada za interfejs ekranu startowego.
 
-Przekazanie wybranego dnia i miesiąca do ProgramController i utworzenie mapy:
+Przekazanie wybranego dnia i miesiąca do ProgramController i utworzenie mapy:<br/>
 
 <img src= "https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/show_map.png>
 
-Wygląd okna startowego
+Wygląd okna startowego:<br/>
 <img src= "https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/starting_window.png">
 
-Mapa
+Mapa:<br/>
 <img src ="https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/map.png">
 
 
@@ -62,7 +62,7 @@ Klasa główna. Ładuje parametry z pliku parameters.json i uruchamia całą apl
 
 Odpowiada za logikę aplikacji - pobiera dane z bazy, inicjuje ramkę i panel.
 
-Pobranie danych z bazy przy tworzeniu mapy:
+Pobranie danych z bazy przy tworzeniu mapy:<br/>
 <img src="(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/obtain_data.png">
 
 ### MapDrawer
@@ -70,8 +70,7 @@ Pobranie danych z bazy przy tworzeniu mapy:
 Klasa Madrawer odpowiada za rysowanie mapy za pomocą biblioteki Unfolding wraz z zaznaczeniem
 wszystkich stacji.
 
-Dodanie znaczników wszystkich stacji:
-
+Dodanie znaczników wszystkich stacji:<br/>
 <img src ="https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/add_markers.png">
 
 Klasa MeasurementContainer służy jako kontener dla danych z pojedynczego pomiaru.
@@ -80,7 +79,7 @@ Klasa LabeledMarker to znacznik stacji pomiarowej, a gdy najedziemy myszką na d
 wyświetlone dane pomiarowe z danej stacji. 
 oraz za wyświetlanie szczegółów danej stacji pomiarowej.
 
-Wyświetlenie szczegółów stacji:
+Wyświetlenie szczegółów stacji:<br/>
 <img src ="https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/show_details.png">
 
 
