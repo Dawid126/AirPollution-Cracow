@@ -2,6 +2,7 @@ package map_drawer;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Hashtable;
 
 import processing.core.PApplet;
@@ -20,23 +21,23 @@ import de.fhpotsdam.unfolding.ui.BarScaleUI;
 
 public class MapDrawer extends PApplet 
 {
-	UnfoldingMap map;
-	ZoomSlider slider;
-	BarScaleUI barScale;
+	private UnfoldingMap map;
+	private ZoomSlider slider;
+	private BarScaleUI barScale;
 	
-	EventDispatcher eventDispatcher;
+	private EventDispatcher eventDispatcher;
 	float maxPanningDistance = 15;
-	Location cityLocation = new Location(50.034f, 19.94f);
+	private Location cityLocation = new Location(50.034f, 19.94f);
 	
-	ResultSet stationsAndMeasurementsResult;
-	ResultSet normsResult;
+	private ResultSet stations;
+	private ArrayList<ArrayList<MeasurementContainer>> measurementsPerStation;
 	
-	PFont myFont;
+	private PFont myFont;
 
-	public void setQueriesResults(ResultSet stationsAndMeasurementsResult, ResultSet normsResult)
+	public void setQueriesResults(ResultSet stations, ArrayList<ArrayList<MeasurementContainer>> measurementsPerStation)
 	{
-		this.stationsAndMeasurementsResult = stationsAndMeasurementsResult;
-		this.normsResult = normsResult;
+		this.stations = stations;
+		this.measurementsPerStation = measurementsPerStation;
 	}
 
 	public void setup()
@@ -62,7 +63,7 @@ public class MapDrawer extends PApplet
 		
 		try 
 		{
-			addMarkesToMap(stationsAndMeasurementsResult, normsResult);
+			addMarkesToMap();
 		} 
 		catch (SQLException e) 
 		{
@@ -137,28 +138,25 @@ public class MapDrawer extends PApplet
 		}
 	}
 
-	private void addMarkesToMap(ResultSet stationsAndMeasurementsResults, ResultSet normsResult) throws SQLException 
+	private void addMarkesToMap() throws SQLException 
 	{
-		Hashtable<String, Integer> norms = new Hashtable<String, Integer>();
-		while(normsResult.next())
+		int counter = 0;
+		while(stations.next())
 		{
-			norms.put(normsResult.getString(2), normsResult.getInt(1));
-		}
-		
-		while(stationsAndMeasurementsResults.next())
-		{
-			Location stationLocation = new Location(stationsAndMeasurementsResults.getFloat(2)
-					, stationsAndMeasurementsResults.getFloat(3));
+			Location stationLocation = new Location(stations.getFloat(3)
+					, stations.getFloat(4));
+			 
+			ArrayList<MeasurementContainer> stationMeasurements = measurementsPerStation.get(counter);
+			String stationName = stations.getString(2);
 			
-			LabeledMarker marker = new LabeledMarker(stationLocation
-					, stationsAndMeasurementsResults.getString(1)
-					, stationsAndMeasurementsResults.getInt(4)
-					, stationsAndMeasurementsResults.getInt(5)
-					, (int) norms.get("PM10")
-					, (int) norms.get("PM2,5")
+			LabeledMarker marker = new LabeledMarker(
+					  stationLocation
+					, stationName
+					, stationMeasurements
 					, myFont);
-			
-			map.addMarkers(marker);
+				
+			map.addMarkers(marker);	
+			counter++;
 		}
 	}
 	

@@ -4,7 +4,7 @@ import processing.core.PApplet;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 
-public class ZoomSlider 
+class ZoomSlider 
 {
 
 	PApplet p;

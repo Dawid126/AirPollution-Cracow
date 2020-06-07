@@ -14,7 +14,8 @@ import database_provider.*;
 import gui.*;
 import map_drawer.*;
 
-public class ProgramController {
+public class ProgramController 
+{
 	
 	private int measurementDay;
 	private int measurementMonth;
@@ -39,6 +40,9 @@ public class ProgramController {
 			System.out.println("SQL exception" + e);
 			System.exit(1);
 		}
+		
+		this.gui = new GUI(this);
+    	gui.showGUI();
 	}
 	
 	public void createMap() throws SQLException
@@ -48,27 +52,49 @@ public class ProgramController {
 			@Override
             public void run()
             {
-				ResultSet stationsAndMeasurementsResult;
-			    ResultSet normsResult;
+				ResultSet stationsResult;
+				ResultSet stationMeasurementsResult;
+				ArrayList<MeasurementContainer> stationMeasurements;
+				ArrayList<ArrayList<MeasurementContainer>> measurementsPerStation = new ArrayList<>();
 			    
-				String stationsAndMeasurementsQuery = "SELECT name, location_x, location_y,"
-		        		+ "(SELECT value from measurements M WHERE M.station_id = S.station_id"
-		        		+ " AND M.type = 'PM10' AND MONTH(M.time) = " + measurementMonth
-		        		+ " AND DAY(M.time) = " + measurementDay + ") as PM10,"
-		        		+ ""
-		        		+ " (SELECT value from measurements M WHERE M.station_id = S.station_id"
-		        		+ " AND M.type = 'PM2,5' AND MONTH(M.time) = " + measurementMonth
-		        		+ " AND DAY(M.time) = " + measurementDay + ") as PM2_5"
-		        		+ " FROM stations S";
-				
-				String normsQuery = "SELECT value, type from norms";
+			    String stationsQuery = "SELECT station_id, name, location_x, location_y FROM STATIONS";
 				
 				try 
 				{
-			        stationsAndMeasurementsResult = databaseProvider.execute(stationsAndMeasurementsQuery);
-			        normsResult = databaseProvider.execute(normsQuery);
+			        stationsResult = databaseProvider.execute(stationsQuery);
+			        		        
+			        while(stationsResult.next())
+			        {
+			        	stationMeasurements = new ArrayList<>();
+			        	
+			        	String stationMeasurementsQuery = "SELECT M.value, M.type, N.value "
+					        			+ "FROM measurements M "
+					        			+ "INNER JOIN norms N on N.type = M.type "
+					        			+ "WHERE MONTH(M.time) = " + measurementMonth + " "
+					        			+ "AND DAY(M.time) = " + measurementDay + " "
+					        			+ "AND station_id = " + stationsResult.getInt(1);
+			        	
+			        	
+			        	
+			        	stationMeasurementsResult = databaseProvider.execute(stationMeasurementsQuery);
+			        	
+			        	while(stationMeasurementsResult.next())
+			        	{
+			        		MeasurementContainer measurement = new MeasurementContainer(
+			        				stationMeasurementsResult.getInt(1),
+			        				stationMeasurementsResult.getInt(3),
+			        				stationMeasurementsResult.getString(2));
+			        		stationMeasurements.add(measurement);
+			        	}
+			        	
+			        	measurementsPerStation.add(stationMeasurements);
+			        		        	
+			        }
+			        
+			        stationsResult = databaseProvider.execute(stationsQuery);
+			        
 			        MapDrawer map = new MapDrawer();
-					map.setQueriesResults(stationsAndMeasurementsResult, normsResult);
+					map.setQueriesResults(stationsResult, measurementsPerStation);
 					map.init();	
 					
 					JFrame frame = new JFrame("Kraków - mapa stacji pomiarowych");
