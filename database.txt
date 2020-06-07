@@ -21,3 +21,5 @@ create table norms (
     type  nvarchar(11) not null unique
 )
 
+alter table measurements add constraint FK_Types foreign key (type) references norms(type);
+
