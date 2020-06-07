@@ -45,7 +45,7 @@ Odpowiada za interfejs ekranu startowego.
 
 Przekazanie wybranego dnia i miesiąca do ProgramController i utworzenie mapy:<br/>
 
-<img src= "https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/show_map.png>
+<img src= "https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/show_map.png">
 
 Wygląd okna startowego:<br/>
 <img src= "https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/starting_window.png">
@@ -63,18 +63,18 @@ Klasa główna. Ładuje parametry z pliku parameters.json i uruchamia całą apl
 Odpowiada za logikę aplikacji - pobiera dane z bazy, inicjuje ramkę i panel.
 
 Pobranie danych z bazy przy tworzeniu mapy:<br/>
-<img src="(https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/obtain_data.png">
+<img src="https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/obtain_data.png">
 
 ### MapDrawer
 
-Klasa Madrawer odpowiada za rysowanie mapy za pomocą biblioteki Unfolding wraz z zaznaczeniem
+Klasa MapDrawer odpowiada za rysowanie mapy za pomocą biblioteki Unfolding wraz z zaznaczeniem
 wszystkich stacji.
 
 Dodanie znaczników wszystkich stacji:<br/>
 <img src ="https://raw.githubusercontent.com/Dawid126/Data-base-project/master/Resources/add_markers.png">
 
-Klasa MeasurementContainer służy jako kontener dla danych z pojedynczego pomiaru.
-Klasa ZoomSlider odpowiada za pasek Zooma mapy.
+Klasa MeasurementContainer służy jako kontener dla danych z pojedynczego pomiaru.<br/>
+Klasa ZoomSlider odpowiada za pasek Zooma mapy.<br/>
 Klasa LabeledMarker to znacznik stacji pomiarowej, a gdy najedziemy myszką na dany znacznik to zostaną
 wyświetlone dane pomiarowe z danej stacji. 
 oraz za wyświetlanie szczegółów danej stacji pomiarowej.
